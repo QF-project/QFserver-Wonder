@@ -1,6 +1,6 @@
 name: "Minecraft 崩溃"
 description: "游戏异常退出"
-labels: [· Bug, 反馈]
+labels: [崩溃问题]
 body:
 - type: checkboxes
   id: "yml-1"
