@@ -1,0 +1,30 @@
+name: "Bug 反馈"
+description: "遇见了正常游戏内容预期外的 Bug"
+labels: [· Bug, 反馈]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "检查项"
+    description: "在提交issue之前，请检查以下三项内容："
+    options:
+    - label: "**这个Bug是可复现的** 即其他玩家也可以同样触发这个Bug (可选)"
+      required: false
+    - label: "**Bug的确是非游戏预期内容** 请在[MC模组百科](https://mcmod.cn/)中确认这个模组的功能"
+      required: true
+    - label: "我已在 [Issues 页面](https://github.com/Qian-F/QFserver-Wonder/issues) 中搜索，确认了这一Bug未被提交过。"
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: 描述
+    description: "详细描述该 Bug 的具体表现。"
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: 重现步骤
+    description: "详细描述要怎么操作才能再次触发这个 Bug。(可选)"
+  validations:
+    required: false
