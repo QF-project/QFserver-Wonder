@@ -26,7 +26,7 @@ body:
   id: "yml-3"
   attributes:
     label: 错误报告、日志与附件
-    description: "上传错误报告，报告位置在 QFclient-wonder\.minecraft\versions\QFclient-wonder\crash-reports "
+    description: "上传错误报告，报告位置在 QFclient-wonder/.minecraft/versions/QFclient-wonder/crash-reports 文件夹"
     placeholder: "先点击这个文本框，然后再将文件直接拖拽到文本框中以上传。"
   validations:
     required: true
