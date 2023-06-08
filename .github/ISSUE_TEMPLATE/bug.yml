@@ -6,7 +6,7 @@ body:
   id: "yml-1"
   attributes:
     label: "检查项"
-    description: "在提交issue之前, 请检查以下三项内容:"
+    description: "在提交issue之前, 请检查以下四项内容:"
     options:
     - label: "**此Bug出现在服务器中** 在单人游戏内的错误/崩溃将不予处理"
       required: true
