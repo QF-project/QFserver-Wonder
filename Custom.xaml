@@ -1,0 +1,6 @@
+<local:MyCard Title="QF-Wonder" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="欢迎来到 QF-Wonder 服务器！这是一个充满创造力和冒险的世界。加入我们，一起畅游无尽的想象空间吧！" />
+    </StackPanel>
+</local:MyCard>
