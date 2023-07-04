@@ -1,6 +1,6 @@
 name: "汉化请求"
 description: "对一些模组的汉化请求"
-labels: [B: 汉化请求]
+labels: ["B: 汉化请求"]
 body:
 - type: checkboxes
   id: "yml-1"
